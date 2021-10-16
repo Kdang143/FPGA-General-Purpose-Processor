@@ -2,7 +2,15 @@
 
 ## **Latches, Decoder, and FSM**
 
-![image](https://user-images.githubusercontent.com/68084112/137590049-d13889b2-820d-4d3b-8d0e-cb62c81cd77b.png)
+The important components that will be used throughout the 3 scenarios are the latches, 4:16 decoder
+and the finite machines. The latches are going to be the important building blocks of memory and there
+for will play a vital role of storing the last 4 digits of the student ID. In this case latch 1 will store student
+digits (60) and latch 2 will store the last 2 digits (16). The 4:16 decoders task will be receiving the signal
+of the current sates from the finite-state machine and will decode it to its operation-selector microcode.
+The finite-state machine that will be used in this lab for every part is the moore machine since its
+simplicity comes from the fact that its outputs will be determined by the current states.
+
+![image](https://user-images.githubusercontent.com/68084112/137590301-1e6dc25a-eafb-4512-aa3d-70978cc505cc.png)
 
 
 ## **Latches, Decoder, and FSM Waveform**
